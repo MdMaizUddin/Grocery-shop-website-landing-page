@@ -30,24 +30,72 @@
             background: "#EFEBE3"
 
           }
+
         }
+
       }
     }
   </script>
   <style>
-    .font-family {
+    .font {
       font-family: "Sora", "serif";
     }
   </style>
 </head>
 
-<body>
+<body class="font">
   <!-- header part -->
-  <header>
+  <header class="space-y-12 md:space-y-12 lg:space-y-20 bg-gradient-to-t from-[#EFEBE3] to-[#FFFFFF]">
+    <!-- nav part  -->
+    <nav class="container mx-auto border-primary border-2 md:border-0 md:px-2 lg:px-6">
+      <div class="flex justify-between py-2 pl-1">
+
+        <div class="my-auto"><img class="w-28" src="./c2-assets/logo-header.png" alt=""></div>
+
+        <ul class="mx-auto lg:pl-32 lg:flex lg:items-center gap-6 hidden lg:block">
+          <li>Product</li>
+          <li>Services</li>
+          <li>Contact us</li>
+        </ul>
+
+        <div class="flex  items-center gap-3 ml-full">
+          <i class="fa-solid fa-magnifying-glass hidden md:block pr-2"></i>
+          <i class="fa-solid fa-cart-shopping hidden md:block pr-2"></i>
+          <button class="btn bg-white border-primary hidden md:block">Log In</button>
+          <button class="btn bg-primary text-white hidden md:block">Register</button>
+          <div class="dropdown dropdown-end md:hidden">
+            <div tabindex="0" role="button" class="btn border-none bg-white shadow-none m-1"><i
+                class="fa-solid fa-bars"></i></div>
+            <ul tabindex="0"
+              class="dropdown-content menu bg-gradient-to-t  from-[#EFEBE3] to-[#FFFFFF]  z-[1] w-52 p-2">
+              <li><a href="">Product</a></li>
+              <li><a href="">Services</a></li>
+              <li><a href="">Contact us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- banner part -->
+    <div class="container mx-auto px-2 pt-2 md:pt-5 md:px-14 lg:px-28 space-y-4 md:space-y-8">
+      <h1 class="font-semibold text-3xl md:text-4xl lg:text-5xl text-center z-10">Freshness <span
+          class="text-primary">You Can <br>Count</span>
+        On, Prices You’ll Love!</h1>
+      <p class="text-base md:text-xl font-light text-center mx-auto  md:w-3/4 lg:w-3/5 px-2 pb-16 md:pb-28 lg:pb-40">Shop your daily
+        essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
+      <div>
+        <img class="mx-auto  animate-bounce z-0 animate-infinite animate-ease-in-out" src="./c2-assets/hero-vegetables.png" alt="">
+        <!-- <img class="mx-auto animate-bounce motion-safe:animate-bounce z-0" src="./c2-assets/hero-vegetables.png" alt=""> -->
+        <!-- <img class="mx-auto animate-[wiggle_0.3s_ease-in-out_infinite]" src="./c2-assets/hero-vegetables.png" alt=""> -->
+
+
+      </div>
+    </div>
   </header>
   <!-- body part -->
 
-  <body>
+  <body class="">
+    <section class="h-52"></section>
   </body>
   <!-- footer part -->
   <footer></footer>

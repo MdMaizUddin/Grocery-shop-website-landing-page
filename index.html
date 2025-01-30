@@ -43,11 +43,11 @@
   </style>
 </head>
 
-<body class="font">
+<body class="font space-y-7 md:space-y-16 lg:space-y-28">
   <!-- header part -->
   <header class="space-y-12 md:space-y-12 lg:space-y-20 bg-gradient-to-t from-[#EFEBE3] to-[#FFFFFF]">
     <!-- nav part  -->
-    <nav class="container mx-auto border-primary border-2 md:border-0 md:px-2 lg:px-6">
+    <nav class="container mx-auto border-primary border-2 md:border-0 md:px-2 lg:px-12">
       <div class="flex justify-between py-2 pl-1">
 
         <div class="my-auto"><img class="w-28" src="./c2-assets/logo-header.png" alt=""></div>
@@ -81,10 +81,11 @@
       <h1 class="font-semibold text-3xl md:text-4xl lg:text-5xl text-center z-10">Freshness <span
           class="text-primary">You Can <br>Count</span>
         On, Prices You’ll Love!</h1>
-      <p class="text-base md:text-xl font-light text-center mx-auto  md:w-3/4 lg:w-3/5 px-2 pb-16 md:pb-28 lg:pb-40">Shop your daily
+      <p class="text-base md:text-xl font-light text-center mx-auto  md:w-3/4 lg:w-3/5 px-2 lg:pb-12">Shop your daily
         essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
-      <div>
-        <img class="mx-auto  animate-bounce z-0 animate-infinite animate-ease-in-out" src="./c2-assets/hero-vegetables.png" alt="">
+      <div class="pt-14 md:pt-32 lg:mt-48">
+        <img class="mx-auto  animate-bounce z-0 animate-infinite animate-ease-in-out"
+          src="./c2-assets/hero-vegetables.png" alt="">
         <!-- <img class="mx-auto animate-bounce motion-safe:animate-bounce z-0" src="./c2-assets/hero-vegetables.png" alt=""> -->
         <!-- <img class="mx-auto animate-[wiggle_0.3s_ease-in-out_infinite]" src="./c2-assets/hero-vegetables.png" alt=""> -->
 
@@ -94,9 +95,82 @@
   </header>
   <!-- body part -->
 
-  <body class="">
-    <section class="h-52"></section>
-  </body>
+  <main class="space-y-7  md:space-y-16 lg:space-y-28">
+    <section class="container mx-auto px-2 lg:px-12 space-y-8 md:space-y-12">
+      <h2 class="text-primary text-2xl md:text-4xl">Services</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-5 lg:gap-6 ">
+        <!-- card-1 -->
+        <div class="bg-background pt-7 pb-11 px-6  text-center space-y-5 rounded-2xl">
+          <div>
+            <div class="avatar p-2 rounded-full bg-white">
+              <div class="w-20 flex justify-center">
+                <img src="./c2-assets/service.png" />
+              </div>
+            </div>
+          </div>
+          <div class="items-center text-center">
+            <h2 class="text-2xl font-semibold">Shoes!</h2>
+            <p class="text-xl opacity-70 pt-2">If a dog chews shoes whose shoes does he choose?</p>
+          </div>
+        </div><!-- card-2 -->
+        <div class="bg-background pt-7 pb-11 px-6  text-center space-y-5 rounded-2xl">
+          <div>
+            <div class="avatar p-2 rounded-full bg-white">
+              <div class="w-20 flex justify-center">
+                <img src="./c2-assets/delivery.png" />
+              </div>
+            </div>
+          </div>
+          <div class="items-center text-center">
+            <h2 class="text-2xl font-semibold">Fast Delivery</h2>
+            <p class="text-xl opacity-70 pt-2">If a dog chews shoes whose shoes does he choose?</p>
+          </div>
+        </div><!-- card-3 -->
+        <div class="bg-background pt-7 pb-11 px-6  text-center space-y-5 rounded-2xl">
+          <div>
+            <div class="avatar p-2 rounded-full bg-white">
+              <div class="w-20 flex justify-center">
+                <img src="./c2-assets/healthy.png" />
+              </div>
+            </div>
+          </div>
+          <div class="items-center text-center">
+            <h2 class="text-2xl font-semibold">Healthy Products</h2>
+            <p class="text-xl opacity-70 pt-2">If a dog chews shoes whose shoes does he choose?</p>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+    <!-- new section -->
+    <!-- <section>
+      <div class="carousel rounded-box rounded-none">
+        <div class="carousel-item flex flex-col">
+          <img src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.webp" alt="Burger" />
+          <h4>banana</h4>
+        </div>
+        <div class="carousel-item">
+          <img src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.webp" alt="Burger" />
+        </div>
+        <div class="carousel-item">
+          <img src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.webp" alt="Burger" />
+        </div>
+        <div class="carousel-item">
+          <img src="https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.webp" alt="Burger" />
+        </div>
+        <div class="carousel-item">
+          <img src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.webp" alt="Burger" />
+        </div>
+        <div class="carousel-item">
+          <img src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.webp" alt="Burger" />
+        </div>
+        <div class="carousel-item">
+          <img src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp" alt="Burger" />
+        </div>
+      </div>
+    </section> -->
+  </main>
   <!-- footer part -->
   <footer></footer>
 </body>

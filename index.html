@@ -47,10 +47,10 @@
   <!-- header part -->
   <header class="space-y-12 md:space-y-12 lg:space-y-20 bg-gradient-to-t from-[#EFEBE3] to-[#FFFFFF]">
     <!-- nav part  -->
-    <nav class="container mx-auto border-primary border-2 md:border-0 md:px-2 lg:px-12">
+    <nav class="container mx-auto border-primary border-2 md:border-0 md:px-2 lg:px-20">
       <div class="flex justify-between py-2 pl-1">
 
-        <div class="my-auto"><img class="w-28" src="./c2-assets/logo-header.png" alt=""></div>
+        <div class="my-auto"><img class="w-28 lg:w-36" src="./c2-assets/logo-header.png" alt=""></div>
 
         <ul class="mx-auto lg:pl-32 lg:flex lg:items-center gap-6 hidden lg:block">
           <li>Product</li>
@@ -96,80 +96,90 @@
   <!-- body part -->
 
   <main class="space-y-7  md:space-y-16 lg:space-y-28">
-    <section class="container mx-auto px-2 lg:px-12 space-y-8 md:space-y-12">
+    <section class="container mx-auto px-2 lg:px-20 space-y-8 md:space-y-12">
       <h2 class="text-primary text-2xl md:text-4xl">Services</h2>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-5 lg:gap-6 ">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-5 lg:gap-7 ">
         <!-- card-1 -->
-        <div class="bg-background pt-7 pb-11 px-6  text-center space-y-5 rounded-2xl">
+        <div class="bg-background pt-7 pb-11 px-6 text-center space-y-5 rounded-2xl">
           <div>
-            <div class="avatar p-2 rounded-full bg-white">
-              <div class="w-20 flex justify-center">
+            <div class="avatar p-4 rounded-full bg-white">
+              <div class="w-20 md:w-24 lg:w-28 flex justify-center items-center">
                 <img src="./c2-assets/service.png" />
               </div>
             </div>
           </div>
           <div class="items-center text-center">
-            <h2 class="text-2xl font-semibold">Shoes!</h2>
-            <p class="text-xl opacity-70 pt-2">If a dog chews shoes whose shoes does he choose?</p>
+            <h2 class="text-2xl font-semibold">24/7 Services</h2>
+            <p class="text-xl opacity-70 pt-2 lg:w-4/5 mx-auto">Our 24/7 grocery service means you can shop for fresh, high-quality groceries at any time of the day or night.</p>
           </div>
         </div><!-- card-2 -->
         <div class="bg-background pt-7 pb-11 px-6  text-center space-y-5 rounded-2xl">
           <div>
-            <div class="avatar p-2 rounded-full bg-white">
-              <div class="w-20 flex justify-center">
+            <div class="avatar p-4 rounded-full bg-white">
+              <div class="w-20  md:w-24 lg:w-28 flex justify-center items-center">
                 <img src="./c2-assets/delivery.png" />
               </div>
             </div>
           </div>
           <div class="items-center text-center">
             <h2 class="text-2xl font-semibold">Fast Delivery</h2>
-            <p class="text-xl opacity-70 pt-2">If a dog chews shoes whose shoes does he choose?</p>
+            <p class="text-xl opacity-70 pt-2 lg:w-4/5 mx-auto">Need it now? We offer lightning-fast delivery so your groceries arrive as quickly as possible—fresh and on time, every
+            time.</p>
           </div>
         </div><!-- card-3 -->
         <div class="bg-background pt-7 pb-11 px-6  text-center space-y-5 rounded-2xl">
           <div>
-            <div class="avatar p-2 rounded-full bg-white">
-              <div class="w-20 flex justify-center">
+            <div class="avatar p-4 rounded-full bg-white">
+              <div class="w-20  md:w-24 lg:w-28 flex justify-center items-center">
                 <img src="./c2-assets/healthy.png" />
               </div>
             </div>
           </div>
           <div class="items-center text-center">
             <h2 class="text-2xl font-semibold">Healthy Products</h2>
-            <p class="text-xl opacity-70 pt-2">If a dog chews shoes whose shoes does he choose?</p>
+            <p class="text-xl opacity-70 pt-2 lg:w-4/5 mx-auto">Eat better, feel better. Discover our handpicked selection of wholesome, healthy products designed to nourish your body
+            and mind.</p>
           </div>
         </div>
 
 
       </div>
     </section>
-    <!-- new section -->
-    <!-- <section>
-      <div class="carousel rounded-box rounded-none">
-        <div class="carousel-item flex flex-col">
-          <img src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.webp" alt="Burger" />
-          <h4>banana</h4>
+    <!-- category section -->
+    <section class="container mx-auto px-2 lg:px-20 ">
+      <h2 class="text-primary text-2xl md:text-4xl">Shop By Category</h2>
+      
+      <div class="carousel max-w-full  rounded-box space-x-4 p-4">
+        <!-- card-1 -->
+        <div class="carousel-item space-y-10 flex flex-col w-80 shadow-xl rounded-lg">
+          <img class="" src="./c2-assets/Oil & Extracts.jpg" class="rounded-box" />
+          <h5 class="font-bold text-2xl text-center ">Oil & Extracts</h5>
         </div>
-        <div class="carousel-item">
-          <img src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.webp" alt="Burger" />
+        <div class="carousel-item space-y-10 flex flex-col p-10 w-80">
+          <img class="w-full" src="./c2-assets/Homemade Pickle.jpg" class="rounded-box" />
+              <h5 class="font-bold text-2xl text-center">Homemade Pickle</h5>
         </div>
-        <div class="carousel-item">
-          <img src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.webp" alt="Burger" />
+        <div class="carousel-item space-y-10 flex flex-col p-10 w-80">
+          <img class="w-full" src="./c2-assets/Homemade Spices.jpg" class="rounded-box" />
+          <h5 class="font-bold text-2xl text-center">Homemade Spices</h5>
         </div>
-        <div class="carousel-item">
-          <img src="https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.webp" alt="Burger" />
+        <div class="carousel-item space-y-10 flex flex-col p-10 w-80">
+          <img src="./c2-assets/Honey.jpg" class="rounded-box" />
+          <h5 class="font-bold text-2xl text-center">Honey,Nuts & Seeds</h5>
         </div>
-        <div class="carousel-item">
-          <img src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.webp" alt="Burger" />
+        <div class="carousel-item space-y-10 flex flex-col p-10 w-80">
+          <img class="w-full" src="./c2-assets/Chicken.jpg"/>
+          <h5 class="font-bold text-2xl text-center">Chicken</h5>
         </div>
-        <div class="carousel-item">
-          <img src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.webp" alt="Burger" />
-        </div>
-        <div class="carousel-item">
-          <img src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp" alt="Burger" />
+        <div class="carousel-item space-y-10 flex flex-col p-10 w-80">
+          <img class="w-full" src="./c2-assets/meat.2.jpg" />
+          <h5 class="font-bold text-2xl text-center">Meat</h5>
         </div>
       </div>
-    </section> -->
+      <div>
+        
+      </div>
+    </section>
   </main>
   <!-- footer part -->
   <footer></footer>
